@@ -295,14 +295,13 @@ h1>span {
 
 @keyframes page-2left {
     0% {
-        transform: translateX(-500px) rotateZ(280deg); 
+        transform: translateX(-500px) rotateZ(280deg);
 
 
     }
 
     100% {
-        transform: translateX(0px) rotateZ(0deg) 
-
+        transform: translateX(0px) rotateZ(0deg)
     }
 
 }
@@ -778,11 +777,12 @@ h1>span {
     /* ----------------page 1-------------------------- */
 
     .leftbox {
-        width: 100%;
+        width: 100;
     }
-.page1{
-     background-image: linear-gradient(25deg, #15ab62 0%, #1a6440 20%, #DDE8D5 50%, #ffffff 80%, #3dce87 100%);
-}
+
+    .page1 {
+        background-image: linear-gradient(25deg, #15ab62 0%, #1a6440 20%, #DDE8D5 50%, #ffffff 80%, #3dce87 100%);
+    }
 
     .rightbox {
         width: 100%;
@@ -873,8 +873,8 @@ h1>span {
     }
 
     .footerbox1 {
-        
-         text-align: center; 
+
+        text-align: center;
     }
 
 }
