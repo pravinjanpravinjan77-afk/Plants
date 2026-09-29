@@ -46,6 +46,9 @@
     padding: 3px 10px;
     border-radius: 20px;
 }
+.shopnow{
+    display: none;
+}
 
 .menubar>a:hover {
     background-color: #15ab62;
@@ -771,6 +774,12 @@ h1>span {
     .inpute:checked+.menubar {
         transform: translateX(0px);
         right: 20px;
+    }
+    .shopnow{
+        display: inline-block;
+    }
+    .shopnow2{
+        display: none;
     }
 
 
